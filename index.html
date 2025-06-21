@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://getbootstrap.com/docs/5.3/assets/css/docs.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js"></script></head>
+<body>
+    <header>
+      <nav class="navbar navbar-expand-bg bg-body-tertiary custom-navbar">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">ManojVeturi</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+              <a class="nav-link active" aria-current="page" href="#Home">Home</a>
+              <a class="nav-link" href="#About">About</a>
+              <a class="nav-link" href="#projects">projects</a>
+              <a class="nav-link" href="#Contact">Contact</a>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <section class="Home" id="Home">
+        <h2>HEY, I AM VETURI MANOJ</h2>
+        <img src="./images/manoj-removebg-preview.png" height="400px" width="500px" >
+    </section>
+    <br><br><br><br>
+    <section class="About" id="About">
+        <h2>About Me</h2>
+        <p>
+            I am a web developer who loves creating websites that look great and work smoothly.
+            I have been learning HTML, CSS, JavaScript. I enjoy building small projects to improve my skills.
+            I am excited about diving deeper into web development and exploring frameworks like React and backend technologies.
+            I am looking to work on projects that make a real impact and help me gain experience.
+        </p>
+    </section>
+    <br><br><br><br>
+    <h2>Projects</h2>
+    <section class="project-section" id="projects">
+      <button id="prev-btn" class="nav-btn">
+        <span class="material-icons">chevron_left</span>
+      </button>
+    <div class="slider" tabindex="0" role="list">
+      <article class="card" role="listitem" tabindex="0">
+        <a href="https://manojveturi.github.io/tictactoe/" target="_main">
+          <img src="images/tictactoe.png" />
+        </a>
+        <div class="card-content">
+          <h2 class="card-title">Tic Tac Toe</h2>
+          <p class="card-description">
+            Responsive website for a tech startup, featuring clean interface
+            and fast performance.
+          </p>
+        </div>
+      </article>
+      <article class="card" role="listitem" tabindex="0">
+        <a  href="https://manojveturi.github.io/2048/" target="_main">
+          <img src="images/2048.png" />
+        </a>
+        <div class="card-content">
+          <h2 class="card-title">2048</h2>
+          <p class="card-description">
+            Responsive website for a tech startup, featuring clean interface
+            and fast performance.
+          </p>
+        </div>
+      </article>
+      <article class="card" role="listitem" tabindex="0">
+        <a href="https://manojveturi.github.io/signin-and-signout-clone-page/" target="_main">
+          <img src="images/sign-in.png" />
+        </a>
+        <div class="card-content">
+          <h2 class="card-title">sign-in clone page</h2>
+          <p class="card-description">
+            Responsive website for a tech startup, featuring clean interface
+            and fast performance.
+          </p>
+        </div>
+      </article>
+      <article class="card" role="listitem" tabindex="0">
+        <a href="https://manojveturi.github.io/e-commerce/" target="_main">
+          <img src="images/e-commerce.png" />
+        </a>
+        <div class="card-content">
+          <h2 class="card-title">E-Commerce</h2>
+          <p class="card-description">
+            Responsive website for a tech startup, featuring clean interface
+            and fast performance.
+          </p>
+        </div>
+      </article>
+      <article class="card" role="listitem" tabindex="0">
+        <a  href="" target="_main">
+          <img src="images/youtube.png" />
+        </a>
+        <div class="card-content">
+          <h2 class="card-title">Youtube clone page</h2>
+          <p class="card-description">
+            Responsive website for a tech startup, featuring clean interface
+            and fast performance.
+          </p>
+        </div>
+      </article>
+      <article class="card" role="listitem" tabindex="0">
+        <a  href="https://manojveturi.github.io/weather/" target="_main">
+          <img src="images/weather.png" />
+        </a>
+        <div class="card-content">
+          <h2 class="card-title">Weather App</h2>
+          <p class="card-description">
+            Responsive website for a tech startup, featuring clean interface
+            and fast performance.
+          </p>
+        </div>
+      </article>
+    </div>
+    <button id="next-btn" class="nav-btn">
+      <span class="material-icons">chevron_right</span>
+    </button>
+    </section>
+    <br><br><br><br>
+    <section class="contact-section" id="Contact">
+      <h2>Contact Me</h2>
+        <form action="https://api.web3forms.com/submit" method="POST" class="contact-us">
+          <input type="hidden" name="access_key" value="d5bc175d-6e08-4ba1-aba2-19b447f06096">
+          <div class="contact-details">
+            <input type="text" name="name" placeholder="Your Name" class="contact-input" required>
+            <input type="text" name="email" placeholder="Your Email" class="contact-input" required>
+            <textarea name="message" placeholder="Your message" class="contact-input" required></textarea>
+          </div>
+         <button type="submit" class="contact-btn">Submit</button>
+        </form>
+    </section>
+      <br>
+    <footer class="footer-section">
+            <a href="https://www.linkedin.com/in/manoj-veturi-640166325" target="_main">
+              <img src="./images/linkedin.jpg" height="25px" width="25px">
+            </a>
+            <a href="https://github.com/ManojVeturi" target="_main">
+              <img src="./images/github.jpg" height="25px" width="25px">
+            </a>
+            <a href="https://www.instagram.com/manoj_veturi" target="_main">
+              <img src="./images/instagram.jpg" height="25px" width="25px">
+            </a>
+            <a href="https://www.facebook.com/profile.php?id=61565756071570" target="_main">
+              <img src="./images/facebook.jpg" height="25px" width="25px">
+            </a>
+            <p>© 2025 ManojVeturi. All rigts are reserved.</p>
+    </footer>
+    
+    <script src="portfolio.js"></script>
+</body>
+</html>
